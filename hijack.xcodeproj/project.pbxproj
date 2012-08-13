@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65521CCB15D8EB5100618C38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65521CCA15D8EB5100618C38 /* UIKit.framework */; };
+		65521CCD15D8EB5100618C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65521CCC15D8EB5100618C38 /* Foundation.framework */; };
+		65521CCF15D8EB5100618C38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65521CCE15D8EB5100618C38 /* CoreGraphics.framework */; };
+		65521CD515D8EB5100618C38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65521CD315D8EB5100618C38 /* InfoPlist.strings */; };
+		65521CD715D8EB5100618C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65521CD615D8EB5100618C38 /* main.m */; };
+		65521CDB15D8EB5100618C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65521CDA15D8EB5100618C38 /* AppDelegate.m */; };
+		65521CE315D8EB5200618C38 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65521CE215D8EB5200618C38 /* SenTestingKit.framework */; };
+		65521CE415D8EB5200618C38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65521CCA15D8EB5100618C38 /* UIKit.framework */; };
+		65521CE515D8EB5200618C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65521CCC15D8EB5100618C38 /* Foundation.framework */; };
+		65521CED15D8EB5200618C38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65521CEB15D8EB5200618C38 /* InfoPlist.strings */; };
+		65521CF015D8EB5200618C38 /* hijackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65521CEF15D8EB5200618C38 /* hijackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65521CE615D8EB5200618C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65521CBD15D8EB5100618C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65521CC515D8EB5100618C38;
+			remoteInfo = hijack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65521CC615D8EB5100618C38 /* hijack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hijack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65521CCA15D8EB5100618C38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65521CCC15D8EB5100618C38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65521CCE15D8EB5100618C38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65521CD215D8EB5100618C38 /* hijack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hijack-Info.plist"; sourceTree = "<group>"; };
+		65521CD415D8EB5100618C38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65521CD615D8EB5100618C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65521CD815D8EB5100618C38 /* hijack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hijack-Prefix.pch"; sourceTree = "<group>"; };
+		65521CD915D8EB5100618C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65521CDA15D8EB5100618C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65521CE115D8EB5200618C38 /* hijackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hijackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65521CE215D8EB5200618C38 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		65521CEA15D8EB5200618C38 /* hijackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hijackTests-Info.plist"; sourceTree = "<group>"; };
+		65521CEC15D8EB5200618C38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65521CEE15D8EB5200618C38 /* hijackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hijackTests.h; sourceTree = "<group>"; };
+		65521CEF15D8EB5200618C38 /* hijackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hijackTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65521CC315D8EB5100618C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65521CCB15D8EB5100618C38 /* UIKit.framework in Frameworks */,
+				65521CCD15D8EB5100618C38 /* Foundation.framework in Frameworks */,
+				65521CCF15D8EB5100618C38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65521CDD15D8EB5200618C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65521CE315D8EB5200618C38 /* SenTestingKit.framework in Frameworks */,
+				65521CE415D8EB5200618C38 /* UIKit.framework in Frameworks */,
+				65521CE515D8EB5200618C38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65521CBB15D8EB5100618C38 = {
+			isa = PBXGroup;
+			children = (
+				65521CD015D8EB5100618C38 /* hijack */,
+				65521CE815D8EB5200618C38 /* hijackTests */,
+				65521CC915D8EB5100618C38 /* Frameworks */,
+				65521CC715D8EB5100618C38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65521CC715D8EB5100618C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65521CC615D8EB5100618C38 /* hijack.app */,
+				65521CE115D8EB5200618C38 /* hijackTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65521CC915D8EB5100618C38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65521CCA15D8EB5100618C38 /* UIKit.framework */,
+				65521CCC15D8EB5100618C38 /* Foundation.framework */,
+				65521CCE15D8EB5100618C38 /* CoreGraphics.framework */,
+				65521CE215D8EB5200618C38 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65521CD015D8EB5100618C38 /* hijack */ = {
+			isa = PBXGroup;
+			children = (
+				65521CD915D8EB5100618C38 /* AppDelegate.h */,
+				65521CDA15D8EB5100618C38 /* AppDelegate.m */,
+				65521CD115D8EB5100618C38 /* Supporting Files */,
+			);
+			path = hijack;
+			sourceTree = "<group>";
+		};
+		65521CD115D8EB5100618C38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65521CD215D8EB5100618C38 /* hijack-Info.plist */,
+				65521CD315D8EB5100618C38 /* InfoPlist.strings */,
+				65521CD615D8EB5100618C38 /* main.m */,
+				65521CD815D8EB5100618C38 /* hijack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65521CE815D8EB5200618C38 /* hijackTests */ = {
+			isa = PBXGroup;
+			children = (
+				65521CEE15D8EB5200618C38 /* hijackTests.h */,
+				65521CEF15D8EB5200618C38 /* hijackTests.m */,
+				65521CE915D8EB5200618C38 /* Supporting Files */,
+			);
+			path = hijackTests;
+			sourceTree = "<group>";
+		};
+		65521CE915D8EB5200618C38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65521CEA15D8EB5200618C38 /* hijackTests-Info.plist */,
+				65521CEB15D8EB5200618C38 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65521CC515D8EB5100618C38 /* hijack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65521CF315D8EB5200618C38 /* Build configuration list for PBXNativeTarget "hijack" */;
+			buildPhases = (
+				65521CC215D8EB5100618C38 /* Sources */,
+				65521CC315D8EB5100618C38 /* Frameworks */,
+				65521CC415D8EB5100618C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hijack;
+			productName = hijack;
+			productReference = 65521CC615D8EB5100618C38 /* hijack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65521CE015D8EB5200618C38 /* hijackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65521CF615D8EB5200618C38 /* Build configuration list for PBXNativeTarget "hijackTests" */;
+			buildPhases = (
+				65521CDC15D8EB5200618C38 /* Sources */,
+				65521CDD15D8EB5200618C38 /* Frameworks */,
+				65521CDE15D8EB5200618C38 /* Resources */,
+				65521CDF15D8EB5200618C38 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65521CE715D8EB5200618C38 /* PBXTargetDependency */,
+			);
+			name = hijackTests;
+			productName = hijackTests;
+			productReference = 65521CE115D8EB5200618C38 /* hijackTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65521CBD15D8EB5100618C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Daniel Ceballos";
+			};
+			buildConfigurationList = 65521CC015D8EB5100618C38 /* Build configuration list for PBXProject "hijack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65521CBB15D8EB5100618C38;
+			productRefGroup = 65521CC715D8EB5100618C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65521CC515D8EB5100618C38 /* hijack */,
+				65521CE015D8EB5200618C38 /* hijackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65521CC415D8EB5100618C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65521CD515D8EB5100618C38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65521CDE15D8EB5200618C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65521CED15D8EB5200618C38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65521CDF15D8EB5200618C38 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65521CC215D8EB5100618C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65521CD715D8EB5100618C38 /* main.m in Sources */,
+				65521CDB15D8EB5100618C38 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65521CDC15D8EB5200618C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65521CF015D8EB5200618C38 /* hijackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65521CE715D8EB5200618C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65521CC515D8EB5100618C38 /* hijack */;
+			targetProxy = 65521CE615D8EB5200618C38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65521CD315D8EB5100618C38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65521CD415D8EB5100618C38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65521CEB15D8EB5200618C38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65521CEC15D8EB5200618C38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65521CF115D8EB5200618C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65521CF215D8EB5200618C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65521CF415D8EB5200618C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hijack/hijack-Prefix.pch";
+				INFOPLIST_FILE = "hijack/hijack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65521CF515D8EB5200618C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hijack/hijack-Prefix.pch";
+				INFOPLIST_FILE = "hijack/hijack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		65521CF715D8EB5200618C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hijack.app/hijack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hijack/hijack-Prefix.pch";
+				INFOPLIST_FILE = "hijackTests/hijackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		65521CF815D8EB5200618C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hijack.app/hijack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hijack/hijack-Prefix.pch";
+				INFOPLIST_FILE = "hijackTests/hijackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65521CC015D8EB5100618C38 /* Build configuration list for PBXProject "hijack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65521CF115D8EB5200618C38 /* Debug */,
+				65521CF215D8EB5200618C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65521CF315D8EB5200618C38 /* Build configuration list for PBXNativeTarget "hijack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65521CF415D8EB5200618C38 /* Debug */,
+				65521CF515D8EB5200618C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65521CF615D8EB5200618C38 /* Build configuration list for PBXNativeTarget "hijackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65521CF715D8EB5200618C38 /* Debug */,
+				65521CF815D8EB5200618C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65521CBD15D8EB5100618C38 /* Project object */;
+}
