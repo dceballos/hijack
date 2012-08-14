@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+//#import "HiJackMgr.h"
 
 @implementation AppDelegate
 
@@ -16,7 +17,17 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+  
+    hiJackMgr = [[HiJackMgr alloc] init];
+    [hiJackMgr setDelegate:self];
+
     return YES;
+}
+
+- (int)receive:(UInt8)data
+{
+  NSLog(@"RECEIVED: %c",(char)data + 96);
+  return 0;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
